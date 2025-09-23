@@ -54,14 +54,13 @@ class DoublyLinkedList:
         print("None")
 
 
-# Demo
-print("\n--- Doubly Linked List ---")
+
 dll = DoublyLinkedList()
 dll.insert_at_end(10)
 dll.insert_at_beginning(5)
 dll.insert_at_end(20)
-dll.display()      # 5 <-> 10 <-> 20 <-> None
+dll.display()      
 dll.delete_at_beginning()
-dll.display()      # 10 <-> 20 <-> None
+dll.display()      
 dll.delete_at_end()
-dll.display()      # 10 <-> None
+dll.display()      
